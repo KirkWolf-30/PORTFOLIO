@@ -48,11 +48,17 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-  background-color: #393939;
+  background: #39393957;
+  -webkit-box-shadow: 0 8prgba 57, 57, 57, 0.507 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8prgba 57, 57, 57, 0.507 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
 
 .navbar .nav-link {
   font-size: 14px;
+  font-weight: 500;
   color: #FFFFFF;
 }
 
